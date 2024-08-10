@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box img{
+width: 100%;
+}
+.header {
+    background-color:darkblue;
+    color: white;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.asidebar {
+    background-color: #cdcd;
+    grid-area: asidebar;
+    padding: 5%;
+    border-color: black;
+    
+    
+    
+}
+.gallery{
+    background-color: #cdcd;
+    grid-area: gallery; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.footer{
+    background-color: yellow;
+    grid-area: footer;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    display: flex;
+}    
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 5fr 90fr 5fr ;
+    grid-template-areas: 
+    "header header"
+    "asidebar gallery"
+    "footer footer";
+    height: 100vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+.card img{
+    width: 80%;
+    width: 80%;
+    height: 80% ;
+    object-fit: cover;
+}
+.btncomprar{
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 1 rem;
+    
+}
+.datos-numero{
+    font-size: small;
+    display: flex;
+    
+}
+.produc-menu{
+
+}
+.carta{
+    display: flex;
+}
+.pro1, .cantidad1{
+    display: inline;
+    padding: 0.5rem;
+}
+.pro1{
+    font-size: larger;
+}
+.cantidad1{
+    font-size: small;
+    color: gray;
+}
+.pro2, .cantidad2{
+    display: inline;
+    padding: 0.5rem;
+}
+.cantidad2{
+    font-size: small;
+    color: gray;
+}
+.pro2{
+    font-size: larger;
+}
+.pro3, .cantidad3{
+    display: inline;
+    padding: 0.5rem;
+}
+.pro3{
+    font-size: larger;
+}
+.cantidad3{
+    font-size: small;
+    color: gray;
+}
+.pro4, .cantidad4{
+    display: inline;
+    padding: 0.5rem;
+}
+.pro4{
+    font-size: larger;
+}
+.cantidad4{
+    font-size: small;
+    color: gray;
+}
+
+
